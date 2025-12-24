@@ -1,0 +1,303 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+  padding: 10px;
+  background: AntiqueWhite;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: AntiqueWhite;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:#A9A9A9;
+}
+ 
+/* Style the top navigation links */ 
+.topnav a {
+   float: left;
+   display: block; 
+   Color: white; 
+   Text-align: center;
+   Padding: 30px 50px;
+   Text-decoration: underline;
+   Font-family: verdana;
+} 
+
+/* Style the top navigation links - hover */ 
+.topnav a:hover { 
+  Background-color: white;
+  Color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+
+.column {   
+  float: left;
+  padding: 10px;
+  height: auto;
+}
+
+.left { 
+  width: 70%;
+  height: 100%;
+} 
+
+.right { 
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: FloralWhite;
+  padding: 20px;
+  margin-top: 20px;
+  height: auto;
+}
+
+.container-1 {
+  position: relative;
+  width: 33.33%;
+  height: auto;
+  float: left;
+}
+
+.container-2 {
+  position: relative;
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding: 10px;
+}
+
+.image-2 {
+  opacity: 1;
+  display: block;
+  height: 225px;
+  width: 500px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding: 10px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container-1:hover .image-2 {
+  opacity: 0.2;
+}
+
+.container-1:hover .middle {
+  opacity: 2;
+}
+
+.container-2:hover .image-2 {
+  opacity: 0.2;
+}
+
+.container-2:hover .middle {
+  opacity: 2;
+}
+
+.text {
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+  padding: 16px 32px;
+  font-family: Monaco;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 50px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>All About India</h1>
+  <p>Learn more about what makes Indian culture so special!</p>
+</div>
+
+<div class="topnav">
+<a href="file:///Users/saanvi/Desktop/Desktop/10th%20grade%20/Advisory%20/Personal%20Project%20Coding/Religion.html">
+	Religion
+</a>
+
+<a href="file:///Users/saanvi/Desktop/Desktop/10th%20grade%20/Advisory%20/Personal%20Project%20Coding/Festivals%20and%20Traditions.html">
+	Festivals and Traditions
+</a>
+
+<a href="file:///Users/saanvi/Desktop/Desktop/10th%20grade%20/Advisory%20/Personal%20Project%20Coding/India%20Tourism.html">
+	Tourism
+</a>
+
+<a href="file:///Users/saanvi/Desktop/Desktop/10th%20grade%20/Advisory%20/Personal%20Project%20Coding/Languages.html">
+	Languages
+</a>
+
+<a href="file:///Users/saanvi/Desktop/Desktop/10th%20grade%20/Advisory%20/Personal%20Project%20Coding/Food%20and%20Clothing.html">
+	Food and Clothing
+</a>
+</div>
+
+<div class="row">
+  <div class="column left">
+    <div class="card">
+
+      <h2>INDIAN CULTURE</h2>
+      <h5>Saanvi Tyagi</h5>
+
+      <img src="https://www.travellersofindia.com/wp-content/uploads/2021/05/The_Unique_Culture_of_India_5_Major_Traditions__Indian_Customs_TravellersofIndia.jpg" alt="India culture" class="image" style="width:90%; height: 85%;">
+
+      <p>"India" A country which most people know about. But what makes India so different from other nations, what makes it so special? Most people know that India is the second-most populated country in the world, is part of Asia, and is home to several of those around the world. But not many know that India's true identity comes from its diversity and cultural expression. Not many know that India is in fact home to around 447 languages. Not many know that Indians love to celebrate all occasions, and its festivals bring people together from all over the world. So I hope all of you can learn more about Indian culture! </p>
+	</div>
+
+      <center><h3>Explore</h3></center>
+
+	<div class="container-1">
+ 	<img src="https://www.mistay.in/travel-blog/content/images/size/w2000/2021/07/Religion.png" alt="Religion" class="image-2" style="width:100%">
+  <div class="middle">
+  	<div class="text"> 
+	<a href="file:///Users/saanvi/Desktop/Desktop/10th%20grade%20/Advisory%20/			Personal%20Project%20Coding/Religion.html">
+
+	Religion
+</a>
+ </div>
+	</div>
+    </div>
+	<div class="container-1">
+ 	<img src="https://media.cnn.com/api/v1/images/stellar/prod/220317121107-05-holi-031222-restricted.jpg" alt="Festivals and Traditions" class="image-2" style="width:100%">
+  <div class="middle">
+  	<div class="text"> 
+	<a href="file:///Users/saanvi/Desktop/Desktop/10th%20grade%20/Advisory%20/			Personal%20Project%20Coding/Festivals%20and%20Traditions.html">
+
+	Festivals and Traditions
+	</a>
+
+ </div>
+	</div>
+    </div>
+	<div class="container-1">
+ 	<img src="https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661186669/top-10-tourist-attractions-in-india-taj-mahal-building/top-10-tourist-attractions-in-india-taj-mahal-building-1120x732.jpg" alt="Tourism" class="image-2" style="width:100%; height: 225px;">
+  <div class="middle">
+  	<div class="text"> 
+	
+	<a href="file:///Users/saanvi/Desktop/Desktop/10th%20grade%20/Advisory%20/			Personal%20Project%20Coding/India%20Tourism.html">
+
+	Tourism
+
+	</a>
+	 </div>
+	</div>
+    </div>
+	<div class="container-2">
+ 	<img src="https://www.ccjk.com/wp-content/uploads/2021/03/How-many-languages-are-spoken-in-India.png" alt="Languages" class="image-2" style="width:100%; height: 225px;">
+  <div class="middle">
+  	<div class="text"> 
+	<a href="file:///Users/saanvi/Desktop/Desktop/10th%20grade%20/Advisory%20/			Personal%20Project%20Coding/Languages.html">
+
+	Languages
+
+	</a>
+	</div>
+	</div>
+    </div>
+	<div class="container-2">
+ 	<img src="https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F3070%2Ftrend20210218124824.jpg" alt="Food and Clothing" class="image-2" style="width:100%; height: 225px;">
+  <div class="middle">
+  	<div class="text"> 
+	<a href="file:///Users/saanvi/Desktop/Desktop/10th%20grade%20/Advisory%20/Personal%20Project%20Coding/Food%20and%20Clothing.html">
+
+	Food and Clothing
+
+	</a>
+	</div>
+	</div>
+    </div>
+
+</div>
+
+<div class="column right">
+
+    <div class="card">
+      <h2>Basic Facts</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/510px-Flag_of_India.svg.png" alt="India Flag" class="image" style="width:100%">
+      <p> 
+	Official name: Republic of India, Bharat <br><br>
+	Capital city: New Delhi <br><br>
+	Official languages: Hindi, English <br><br>
+	Native languages: 122 languages (21 main ones) <br><br>
+	Religions: Hinduism, Islam, Christianity, Sikhism, Buddhism, Jainism, and many more <br><br>
+	Government type: Constitutional federal democratic republic <br><br>
+	Population: 1.417 billion <br><br>
+	Official currency: Indian Rupee (INR) <br><br>
+	GDP: $3.5 trillion <br><br>
+      </p>
+    </div>
+
+</div>
+</div>
+
+</body>
+</html>
+
+
